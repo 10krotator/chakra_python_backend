@@ -10,5 +10,13 @@
         "src": "/(.*)",
         "dest": "main.py"
       }
+    ],
+    "excludeFiles": [
+        "venv/**",
+        "tests/**",
+        "*.pyc",
+        "__pycache__/**",
+        ".pytest_cache/**",
+        ".git/**"
     ]
-  }
+}
